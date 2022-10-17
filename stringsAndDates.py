@@ -1,5 +1,5 @@
 #Rhianon Santini
-#CIS261 Week1Lab10
+#CIS261 Week1Lab1   00
 #Strings and Dates
 
 user_date = input("Enter Date:")
