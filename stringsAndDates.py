@@ -32,13 +32,12 @@ while user_date !='-1':
         month_int = 12
     else:
         month_int = 0
-    if len(tokens) >= 3 and month_int != 0 :
-        date_string = tokens[1]
-        if date_string[len(date_string)-1] ==',':
-            date_string=date_string[0:len(date_string)-1]
-            year=tokens[2]
-            print(str(month_int)+'/'+date_string+'/'+str(year))
-        else:
-            print("Date entered is not valid")
-
-user_date = input("Enter Date")
+    if len(tokens) >= 3 and month_int != 0:
+       date_string = tokens[1]
+    if date_string[len(date_string)-1] ==',':
+       date_string=date_string[0:len(date_string)-1]
+       year=tokens[2]
+       print(str(month_int)+'/'+date_string+'/'+str(year))
+    else:
+       print("Date entered is not valid")
+    user_date = input("Enter Date: ")
